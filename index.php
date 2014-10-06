@@ -30,7 +30,7 @@ define('PROFILE_DATA', false);
 
 // Get composer class loader
 $loader = include DIR.'vendor/autoload.php';
-// Activate boolive
+// Activate Boolive
 Core::activate($loader);
 // start project
-echo Core::start();
+trace(\boolive\core\data\Data::read('/contents'));

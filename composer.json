@@ -9,6 +9,11 @@
   "description": "Skeleton on the Boolive platform",
   "minimum-stability": "stable",
   "license": "MIT",
+  "autoload": {
+        "psr-4": {
+            "": ""
+        }
+    },
   "authors": [
     {
       "name": "Vladimir Shestakov",
