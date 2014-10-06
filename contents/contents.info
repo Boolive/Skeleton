@@ -2,8 +2,8 @@
     "value": "",
     "proto": "/library/content_samples/Part",
     "order": 45,
-    "create": 217890873,
-    "update": 217890883,
+    "created": 217890873,
+    "updated": 217890883,
     "properties": {
         "title": {
             "value": "Содержимое",
