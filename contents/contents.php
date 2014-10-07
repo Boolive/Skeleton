@@ -6,7 +6,9 @@
  */
 namespace contents;
 
-class contents
+use boolive\core\data\Entity;
+
+class contents extends Entity
 {
 
 } 

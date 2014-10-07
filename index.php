@@ -8,6 +8,7 @@
  * @link http://boolive.ru
  */
 use boolive\core\Core;
+use boolive\core\data\Data;
 
 /** @const Времея начала работы системы */
 define('START_TIME', microtime(true));
@@ -28,9 +29,9 @@ define('GLOBAL_TRACE', true);
 /* Признак, профилировать запросы к модулю даных?*/
 define('PROFILE_DATA', false);
 
-// Get composer class loader
+// Get composer loader
 $loader = include DIR.'vendor/autoload.php';
 // Activate Boolive
 Core::activate($loader);
-// start project
-trace(\boolive\core\data\Data::read('/contents'));
+// Start project (read and call root object)
+Data::read('')->start();

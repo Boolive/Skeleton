@@ -1,0 +1,9 @@
+{
+    "is_default_logic": false,
+    "properties":{
+        "title":{
+            "value": "Сайт",
+            "proto": "/contents"
+        }
+    }
+}

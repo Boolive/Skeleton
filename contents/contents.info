@@ -4,6 +4,7 @@
     "order": 45,
     "created": 217890873,
     "updated": 217890883,
+    "is_default_logic": false,
     "properties": {
         "title": {
             "value": "Содержимое",
