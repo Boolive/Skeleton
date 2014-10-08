@@ -8,8 +8,6 @@ class site extends \boolive\core\data\Entity
 {
     function start()
     {
-        echo 'Hello World!!!';
-        trace($this);
+         $x = \boolive\core\data\Data::read('/vendor/boolive/basic/File');
     }
 }
- 

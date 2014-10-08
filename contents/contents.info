@@ -16,12 +16,11 @@
         },
         "icon-150": {
             "value": "icon-150.png",
-            "isile": true,
-            "proto": "/library/basic/Image",
+            "is_file": true,
+            "proto": "/vendor/boolive/basic/Image",
             "properties": {
                 "title": {
-                    "value": "Иконка",
-                    "proto": "/library/basic/Image/title"
+                    "value": "Иконка"
                 }
             }
         }

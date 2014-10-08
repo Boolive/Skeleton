@@ -1,26 +1,27 @@
 {
-  "repositories": [
-    {
-      "url": "https://github.com/Boolive/Core.git",
-      "type": "git"
-    }
-  ],
-  "name": "boolive/skeleton",
-  "description": "Skeleton on the Boolive platform",
-  "minimum-stability": "stable",
-  "license": "MIT",
-  "autoload": {
+    "repositories": [
+        {
+            "url": "https://github.com/Boolive/Core.git",
+            "type": "git"
+        }
+    ],
+    "name": "boolive/skeleton",
+    "description": "Skeleton on the Boolive platform",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "autoload": {
         "psr-4": {
             "": ""
         }
     },
-  "authors": [
-    {
-      "name": "Vladimir Shestakov",
-      "email": "boolive@yandex.ru"
+    "authors": [
+        {
+            "name": "Vladimir Shestakov",
+            "email": "boolive@yandex.ru"
+        }
+    ],
+    "require": {
+        "boolive/core": "dev-master",
+        "boolive/basic": "dev-master"
     }
-  ],
-  "require": {
-    "boolive/core": "dev-master"
-  }
 }
