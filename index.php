@@ -34,6 +34,6 @@ $loader = include DIR.'vendor/autoload.php';
 // Activate Boolive
 Core::activate($loader);
 // Start project (read and call root object)
-Data::read('')->start();
+echo Data::read('')->start();
 
 trace(\boolive\core\develop\Benchmark::stop('all',true));
