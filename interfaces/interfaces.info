@@ -1,3 +1,4 @@
 {
-
+    "proto": "/vendor/boolive/basic/controller",
+    "is_default_logic": false
 }
