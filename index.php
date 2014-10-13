@@ -9,6 +9,8 @@
  */
 use boolive\core\Core;
 use boolive\core\data\Data;
+use boolive\core\values\Input;
+use boolive\core\commands\Commands;
 
 /** @const Времея начала работы системы */
 define('START_TIME', microtime(true));
@@ -25,7 +27,7 @@ define('DIR_CONFIG', DIR.'config/');
 // Адрес сайта, например: boolive.ru. Значение по умолчанию для CLI режима
 define('HTTP_HOST', empty($_SERVER['HTTP_HOST'])?'boolive.ru' : $_SERVER['HTTP_HOST']);
 /* Признак, выводить всю трассировку?*/
-define('GLOBAL_TRACE', true);
+define('GLOBAL_TRACE', false);
 /* Признак, профилировать запросы к модулю даных?*/
 define('PROFILE_DATA', false);
 
@@ -34,6 +36,4 @@ $loader = include DIR.'vendor/autoload.php';
 // Activate Boolive
 Core::activate($loader);
 // Start project (read and call root object)
-echo Data::read('')->start();
-
-trace(\boolive\core\develop\Benchmark::stop('all',true));
+echo Data::read('')->start(Input::getSource(), new Commands());

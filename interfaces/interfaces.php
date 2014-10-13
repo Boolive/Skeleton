@@ -7,12 +7,15 @@
 namespace interfaces;
 
 use boolive\basic\controller\controller;
+use boolive\core\commands\Commands;
+use boolive\core\data\Data;
 
 class interfaces extends controller
 {
-    function work()
+    function work($v, $input, Commands $commands)
     {
-        return 'MyMy';
+        /** @todo start all children */
+        return $this->site->start($input, $commands);
     }
 }
  

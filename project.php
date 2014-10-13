@@ -4,6 +4,8 @@
  *
  * @version 1.0
  */
+use boolive\core\commands\Commands;
+
 class project extends \boolive\basic\controller\controller
 {
     protected function rule()
@@ -18,8 +20,8 @@ class project extends \boolive\basic\controller\controller
         return parent::name($this->uri()==='/' ? null: $new_name, false);
     }
 
-    function work()
+    function work($v, $input, Commands $commands)
     {
-        return $this->interfaces->start();
+        return $this->interfaces->start($input, $commands);
     }
 }
