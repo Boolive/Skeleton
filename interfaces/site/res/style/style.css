@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    font: 14px/1.4 normal Arial, Helvetica, sans-serif;
+    color: #212936;
+    min-width: 960px;
+    }
+img{
+    border: 0;
+    margin: 0;
+    }
+
+.head{
+    position: relative;
+    border-bottom: 15px solid #bfc3c4;
+    overflow: hidden;
+    height: 250px;
+    }
+
+.head__bg{
+    margin: 0;
+    padding: 0;
+
+    }
+.head__info{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+.bg-img{
+    width: 100%;
+    height: auto;
+    bottom: -50px;
+    position: absolute;
+    }
+.logo{
+    position: absolute;
+    top:20px;
+    }
+.head__text{
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    }
+    .title{
+        font-size: 36px;
+        background: #fff;
+        background: rgba(255,255,255,0.7);
+        padding: 5px 20px;
+        margin: 0;
+        }
+    .title-sub{
+        font-size: 20px;
+        background: #fff;
+        background: rgba(255,255,255,0.7);
+        padding: 0 20px 5px;
+        margin: 0;
+        display: inline-block;
+        }
+    .btn{
+        padding: 5px 20px;
+        background: #000000;
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        }
+        .btn:hover{
+            text-decoration: underline;
+            }
+
+    .btn_act{
+        margin-top: 10px;
+        }
+.middle{
+    padding: 30px 10px;
+    }
+.container{
+    margin: 0 auto;
+    width: 800px;
+    max-width: 960px;
+    min-width: 800px;
+    position: relative;
+    }
+.card{
+    border-collapse: collapse;
+    width: 100%;
+
+    }
+.card td{
+    padding: 10px 0;
+    font-size: 16px;
+    border-bottom: 1px #ddd solid;
+    vertical-align: top;
+    }
+    .card td.label{
+        font-size: 13px;
+        width: 250px;
+        padding-right: 10px;
+        color: #666;
+        }
