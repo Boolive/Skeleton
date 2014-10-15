@@ -1,6 +1,6 @@
 {
     "proto": "/vendor/boolive/basic/widget",
     "is_file": true,
-    "is_default_logic": false,
-    "value": "body.tpl"
+    "value": "footer.tpl",
+    "order": 3
 }
