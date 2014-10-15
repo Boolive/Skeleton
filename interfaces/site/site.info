@@ -5,6 +5,9 @@
     "order": 3,
     "is_default_logic": false,
     "properties":{
-        "title": "Сайт"
+        "title": "Сайт",
+        "res":{
+            "proto": "/vendor/boolive/basic/widget/res"
+        }
     }
 }

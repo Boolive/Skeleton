@@ -6,7 +6,7 @@
     <meta name="description" content="<?=implode(' ',$v['meta']['description']->arrays('escape'))?>">
     <meta name="keywords" content="<?=implode(', ',$v['meta']['keywords']->arrays('escape'))?>">
     <?php echo $v['head']->string(); ?>
-    <link href='/interfaces/site/res/style/style.css' rel='stylesheet' type='text/css'>
+<!--    <link href='/interfaces/site/body/res/style/style.css' rel='stylesheet' type='text/css'>-->
 </head>
 <body>
     <?php echo $v['body']->string(); ?>

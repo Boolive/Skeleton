@@ -14,21 +14,8 @@ class body extends widget
 {
     function work($v, $input, Commands $commands)
     {
-        $list = Data::find([
-            'select' => 'children',
-            'from' => $this,
-            'key' => 'name',
-            'order' => ['order','asc']
-        ]);
-        foreach ($list as $child) {
-            $key = $child->name();
-            $out = $child->start($input, $commands);
-            if ($out !== false) {
-                $v[$key] = $out;
-                $input['previous'] = true;
-            }
-        }
-        trace($v);
+        trace($this->res);
+        $v = $this->startChildren($input, $commands, true, $v);
         return parent::work($v, $input, $commands);
     }
 
