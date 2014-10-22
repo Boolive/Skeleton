@@ -4,7 +4,7 @@
  *
  * @version 1.0
  */
-use boolive\core\commands\Commands;
+use \boolive\core\request\Request;
 
 class project extends \boolive\basic\controller\controller
 {
@@ -20,8 +20,8 @@ class project extends \boolive\basic\controller\controller
         return parent::name($this->uri()==='/' ? null: $new_name, false);
     }
 
-    function work($v, $input, Commands $commands)
+    function work($v, Request $request)
     {
-        return $this->interfaces->start($input, $commands);
+        return $this->interfaces->start($request);
     }
 }

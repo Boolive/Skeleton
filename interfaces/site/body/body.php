@@ -7,13 +7,13 @@
 namespace interfaces\site\body;
 
 use boolive\basic\widget\widget;
-use boolive\core\commands\Commands;
+use boolive\core\request\Request;
 
 class body extends widget
 {
-    function work($v, $input, Commands $commands)
+    function work($v, Request $request)
     {
-        $v = $this->startChildren($input, $commands, true, $v);
-        return parent::work($v, $input, $commands);
+        $v = $this->startChildren($request, true, $v);
+        return parent::work($v, $request);
     }
 }

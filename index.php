@@ -9,8 +9,7 @@
  */
 use boolive\core\Core;
 use boolive\core\data\Data;
-use boolive\core\values\Input;
-use boolive\core\commands\Commands;
+use boolive\core\request\Request;
 
 /** @const Времея начала работы системы */
 define('START_TIME', microtime(true));
@@ -36,4 +35,4 @@ $loader = include DIR.'vendor/autoload.php';
 // Activate Boolive
 Core::activate($loader);
 // Start project (read and call root object)
-echo Data::read('')->start(Input::getSource(), new Commands());
+echo Data::read('')->start(new Request());

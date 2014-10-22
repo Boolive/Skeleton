@@ -7,32 +7,30 @@
 namespace interfaces\site;
 
 use boolive\basic\widget\widget;
-use boolive\core\commands\Commands;
-use boolive\core\data\Data;
-use boolive\core\values\Input;
+use boolive\core\request\Request;
 
 class site extends widget
 {
-    function work($v, $input, Commands $commands)
+    function work($v, Request $request)
     {
         // Вызов всех подчиенных, чтобы исполнить после их команды добавления тегов
         $v = [
-            'body' => $this->body->start($input, $commands)
+            'body' => $this->body->start($request)
         ];
         //$v = $this->startChildren();
 
         // Обработка своих команд для вставки тегов в заголовок HTML
-        if ($redirect = $commands->get('redirect')){
+        if ($redirect = $request->getCommands('redirect')){
             header('Location: '.$redirect[0][0]);
             return true;
         }
         $v['head'] = '';
         $js = '';
-//        $commands->htmlHead('base', array('href'=>'http://'.Input::SERVER()->HTTP_HOST->string().'/'), true);
+//        $request->htmlHead('base', array('href'=>'http://'.Input::SERVER()->HTTP_HOST->string().'/'), true);
         // Meta
 //        $site = Data::read('');
 //        if ($site->favicon->isExist()){
-//            $commands->htmlHead('link', array('rel'=>'shortcut icon', 'type'=>$site->favicon->mime(), 'href'=>$site->favicon->file().'?'.$site->favicon->date(true)));
+//            $requests->htmlHead('link', array('rel'=>'shortcut icon', 'type'=>$site->favicon->mime(), 'href'=>$site->favicon->file().'?'.$site->favicon->date(true)));
 //        }
         $v['meta'] = array(
             'title' => 'Сайт',//$site->title->is_exist()? array($site->title->value()) : array(),
@@ -40,7 +38,7 @@ class site extends widget
             'keywords' => array(),
         );
         $uniq = array();
-        foreach ($commands->get('htmlHead') as $com){
+        foreach ($request->getCommands('htmlHead') as $com){
             if ($com[0]=='title'){
                 $v['meta'][$com[0]][] = $com[1]['text'];
             }else
@@ -70,6 +68,6 @@ class site extends widget
             }
         }
         $v['head'].=$js;
-        return parent::work($v, $input, $commands);
+        return parent::work($v, $request);
     }
 } 
