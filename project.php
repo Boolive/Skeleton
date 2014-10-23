@@ -20,7 +20,7 @@ class project extends \boolive\basic\controller\controller
         return parent::name($this->uri()==='/' ? null: $new_name, false);
     }
 
-    function work($v, Request $request)
+    function work(Request $request)
     {
         return $this->interfaces->start($request);
     }

@@ -11,7 +11,7 @@ use boolive\core\request\Request;
 
 class site extends widget
 {
-    function work($v, Request $request)
+    function show($v, Request $request)
     {
         // Вызов всех подчиенных, чтобы исполнить после их команды добавления тегов
         $v = [
@@ -68,6 +68,6 @@ class site extends widget
             }
         }
         $v['head'].=$js;
-        return parent::work($v, $request);
+        return parent::show($v, $request);
     }
 } 

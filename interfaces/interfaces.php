@@ -11,7 +11,7 @@ use boolive\core\request\Request;
 
 class interfaces extends controller
 {
-    function work($v, Request $request)
+    function work(Request $request)
     {
         /** @todo start all children */
         return $this->site->start($request);

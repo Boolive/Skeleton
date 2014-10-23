@@ -11,9 +11,9 @@ use boolive\core\request\Request;
 
 class body extends widget
 {
-    function work($v, Request $request)
+    function show($v, Request $request)
     {
         $v = $this->startChildren($request, true, $v);
-        return parent::work($v, $request);
+        return parent::show($v, $request);
     }
 }
