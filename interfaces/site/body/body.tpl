@@ -4,7 +4,7 @@
         <?=$v['head']->string()?>
     </div>
     <div class="middle container">
-        <?=$v['polina']->string()?>
+        <?=$v['menu_side']->string()?>
         <?=$v['middle']->string()?>
     </div>
     <div class="footer">

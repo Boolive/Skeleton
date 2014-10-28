@@ -35,4 +35,9 @@ $loader = include DIR.'vendor/autoload.php';
 // Activate Boolive
 Core::activate($loader);
 // Start project (read and call root object)
-echo Data::read('')->start(new Request());
+//echo Data::read('/interfaces')->start(new Request());
+trace(Data::find([
+    'form' => '/interfaces',
+    'select' => 'children',
+    'depth' => [0,10]
+]));
