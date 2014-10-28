@@ -1,0 +1,8 @@
+{
+    "proto": "/vendor/boolive/basic/page",
+    "order": 2,
+    "properties": {
+        "title": "Скачать",
+        "text": "<p>Ссылка на скачивание</p>"
+    }
+}

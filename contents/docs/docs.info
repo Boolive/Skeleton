@@ -1,0 +1,8 @@
+{
+    "proto": "/vendor/boolive/basic/page",
+    "order": 1,
+    "properties": {
+        "title": "Документация",
+        "text": "<p>Текст может содержать картинки, таблицы и иметь всяческое <strong>форматирование</strong>.<img alt=\"\" src=\"/contents/docs/text/image/image.jpg\" style=\"height:346px; width:500px\" /></p>\n\n<p>Текст после картинки</p>\n\n<p> </p>\n"
+    }
+}

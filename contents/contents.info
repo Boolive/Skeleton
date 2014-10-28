@@ -1,27 +1,8 @@
 {
-    "value": "",
-    "proto": "/library/content_samples/part",
-    "order": 45,
-    "created": 217890873,
-    "updated": 217890883,
+    "proto": "/vendor/boolive/basic/page",
     "properties": {
-        "title": {
-            "value": "Содержимое",
-            "proto": "/library/content_samples/part/title"
-        },
-        "description": {
-            "value": "Структура сайта, страницы, разделы...",
-            "proto": "/library/content_samples/part/description"
-        },
-        "icon-150": {
-            "value": "icon-150.png",
-            "is_file": true,
-            "proto": "/vendor/boolive/basic/image",
-            "properties": {
-                "title": {
-                    "value": "Иконка"
-                }
-            }
-        }
+        "title": "Главная",
+        "description": "Главная страница. Структура сайта, страницы, разделы...",
+        "text":  "<h2>Привет!</h2>\n\n<p>Система управления сайтом Boolive 2 успешно установлена.<br />\nРаздел администрирования находится по адресу <a href=\"/admin\">/admin</a> Логин: <strong>admin</strong> Пароль: <strong>padmin</strong></p>\n\n<p> </p>\n"
     }
 }
