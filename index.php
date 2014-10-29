@@ -36,8 +36,35 @@ $loader = include DIR.'vendor/autoload.php';
 Core::activate($loader);
 // Start project (read and call root object)
 //echo Data::read('/interfaces')->start(new Request());
-trace(Data::find([
-    'form' => '/interfaces',
-    'select' => 'children',
-    'depth' => [0,10]
-]));
+//trace(Data::find([
+//    'from' => '/interfaces',
+//    'select' => 'children',
+//    'depth' => 14
+//]));
+
+$dir = DIR."";
+// Открыть известный каталог и начать считывать его содержимое
+$ignore = array_flip(['.','..','.git']);
+$depth = 10;
+
+if ($dh = opendir($dir)) {
+    $stack = [['dir' => $dir, 'name' => basename($dir), 'dh' => $dh, 'depth' => $depth]];
+    do {
+        $curr = end($stack);
+        while (($file = readdir($curr['dh'])) !== false) {
+            if (!isset($ignore[$file])) {
+                if ($file == $curr['name'] . '.info') {
+                    echo 'Object: ' . $curr['dir'] . '<br>';
+                }else
+                if ($curr['depth'] && is_dir($path = $curr['dir'] . $file)) {
+                    if ($dh = opendir($path . '/')) {
+                        $stack[] = ['dir' => $path . '/', 'name' => $file, 'dh' => $dh, 'depth' => $curr['depth'] - 1];
+                        $curr = end($stack);
+                    }
+                }
+            }
+        }
+        closedir($curr['dh']);
+        array_pop($stack);
+    } while ($stack);
+}
