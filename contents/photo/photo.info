@@ -1,0 +1,7 @@
+{
+    "proto": "/vendor/boolive/basic/part",
+    "order": 2,
+    "properties": {
+        "title": "Фотографии"
+    }
+}

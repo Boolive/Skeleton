@@ -1,1 +1,1 @@
-<?=$v['text']->string()?>
+<?=$v['content']->string()?>

@@ -24,7 +24,7 @@ class middle extends widget
 
     function show($v, Request $request)
     {
-        $v['text'] = $request['REQUEST']['object']->text->value();
+        $v['content'] = $this->content->linked()->start($request);
         return parent::show($v, $request);
     }
 } 

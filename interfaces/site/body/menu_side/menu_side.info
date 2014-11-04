@@ -1,3 +1,14 @@
 {
-    "proto": "/vendor/boolive/basic/menu"
+    "proto": "/vendor/boolive/basic/menu",
+    "value": "menu_side.tpl",
+    "is_file": true,
+    "properties": {
+        "object": {
+            "proto": "/contents",
+            "is_link": true
+        },
+        "res": {
+            "proto": "/vendor/boolive/basic/widget/res"
+        }
+    }
 }

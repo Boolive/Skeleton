@@ -35,12 +35,14 @@ $loader = include DIR.'vendor/autoload.php';
 // Activate Boolive
 Core::activate($loader);
 // Start project (read and call root object)
-//echo Data::read('/interfaces')->start(new Request());
-trace(Data::find([
-    'from' => '/interfaces',
-    'select' => 'children',
-    'depth' => 1
-]));
+echo Data::read('/interfaces')->start(new Request());
+//trace(Data::find([
+//    'from' => '/interfaces',
+//    'select' => 'children',
+//    //'struct' => 'tree',
+//    'key'=>'name',
+//    'depth' => 10
+//]));
 //$bench_cnt = 100;
 //
 //$test = 3;
