@@ -3,6 +3,7 @@
     "properties": {
         "title": "Главная",
         "description": "Главная страница. Структура сайта, страницы, разделы...",
-        "text":  "<h2>Привет!</h2>\n\n<p>Система управления сайтом Boolive 2 успешно установлена.<br />\nРаздел администрирования находится по адресу <a href=\"/admin\">/admin</a> Логин: <strong>admin</strong> Пароль: <strong>padmin</strong></p>\n\n<p> </p>\n"
+        "text":  "<h2>Привет!</h2>\n\n<p>Система управления сайтом Boolive 2 успешно установлена.<br />\nРаздел администрирования находится по адресу <a href=\"/admin\">/admin</a> Логин: <strong>admin</strong> Пароль: <strong>padmin</strong></p>\n\n<p> </p>\n",
+        "menu": true
     }
 }

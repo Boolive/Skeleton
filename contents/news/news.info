@@ -2,6 +2,7 @@
     "proto": "/vendor/boolive/basic/part",
     "order": 1,
     "properties": {
-        "title": "Новости"
+        "title": "Новости",
+        "menu": true
     }
 }
