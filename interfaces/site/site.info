@@ -1,9 +1,8 @@
 {
     "proto": "/vendor/boolive/basic/widget",
-    "value": "site.tpl",
-    "is_file": true,
+    "file": "site.tpl",
     "order": 3,
-    "is_default_logic": false,
+    "logic": true,
     "properties":{
         "title": "Сайт",
         "res":{

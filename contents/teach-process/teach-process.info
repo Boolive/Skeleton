@@ -3,7 +3,10 @@
     "order": 2,
     "properties": {
         "title": "Учебный процесс",
-        "text": "<p>Текст новости</p><p>Текст новости</p><p>Текст новости</p><p>Текст новости</p><p>Текст новости</p><p>Текст новости</p><p>Текст новости</p>",
+        "text": {
+            "file": "text.html",
+            "proto": "/vendor/boolive/basic/page/text"
+        },
         "menu": true
     }
 }

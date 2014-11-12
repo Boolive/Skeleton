@@ -1,7 +1,6 @@
 {
     "proto": "/vendor/boolive/basic/widget",
-    "is_file": true,
-    "value": "middle.tpl",
+    "file": "middle.tpl",
     "order": 2,
-    "is_default_logic": false
+    "logic": true
 }

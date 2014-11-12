@@ -26,7 +26,7 @@ define('DIR_CONFIG', DIR.'config/');
 // Адрес сайта, например: boolive.ru. Значение по умолчанию для CLI режима
 define('HTTP_HOST', empty($_SERVER['HTTP_HOST'])?'boolive.ru' : $_SERVER['HTTP_HOST']);
 /* Признак, выводить всю трассировку?*/
-define('GLOBAL_TRACE', true);
+define('GLOBAL_TRACE', false);
 /* Признак, профилировать запросы к модулю даных?*/
 define('PROFILE_DATA', false);
 

@@ -1,5 +1,4 @@
 {
-    "value": "style.css",
-    "is_file": true,
+    "file": "style.css",
     "proto": "/vendor/boolive/basic/css"
 }

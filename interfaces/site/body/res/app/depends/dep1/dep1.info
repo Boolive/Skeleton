@@ -1,5 +1,4 @@
 {
     "proto": "/vendor/boolive/basic/javascript",
-    "is_file": true,
-    "value": "dep1.js"
+    "file": "dep1.js"
 }

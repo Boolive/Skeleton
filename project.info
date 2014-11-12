@@ -1,5 +1,5 @@
 {
-    "is_default_logic": false,
+    "logic": true,
     "proto": "/vendor/boolive/basic/controller",
     "properties":{
 

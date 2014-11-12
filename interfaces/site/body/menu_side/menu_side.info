@@ -1,7 +1,6 @@
 {
     "proto": "/vendor/boolive/basic/menu",
-    "value": "menu_side.tpl",
-    "is_file": true,
+    "file": "menu_side.tpl",
     "properties": {
         "object": {
             "proto": "/contents",
