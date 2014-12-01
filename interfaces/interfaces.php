@@ -7,14 +7,14 @@
 namespace interfaces;
 
 use boolive\basic\controller\controller;
+use boolive\core\config\Config;
+use boolive\core\events\Events;
 use boolive\core\request\Request;
 
 class interfaces extends controller
 {
     function work(Request $request)
     {
-        /** @todo start all children */
-        return $this->site->start($request);
+        return $this->startChildren($request, false);
     }
 }
- 

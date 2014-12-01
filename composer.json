@@ -23,7 +23,8 @@
     "require": {
         "boolive/core": "dev-master",
         "boolive/basic": "dev-master",
+        "boolive/navigations": "dev-master",
         "boolive/widgets": "dev-master",
-        "boolive/navigations": "dev-master"
+        "boolive/admin": "dev-master"
     }
 }
