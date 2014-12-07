@@ -1,5 +1,5 @@
 {
-    "proto": "/vendor/boolive/basic/widget",
+    "proto": "/vendor/boolive/basic/layout",
     "file": "site.tpl",
     "order": 3,
     "logic": true,
