@@ -9,9 +9,8 @@
             </a>
         </div>
         <div class="head__text">
-            <h1 class="title">Автошкола «Орион»</h1>
-            <span class="title-sub">г. Заречный</span><br/>
-            <a class="btn btn_act" href="/contents/akt_umb.doc" title="Скачать">Акт обследования УМБ</a>
+            <h1 class="title">Название сайта</h1>
+            <span class="title-sub">Слоган</span><br/>
         </div>
     </div>
 </div>
