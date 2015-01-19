@@ -36,8 +36,11 @@ $loader = include DIR.'vendor/autoload.php';
 Core::activate($loader);
 // Start project (read and call root object)
 echo Data::read('/interfaces')->start(new Request());
+//$u = \boolive\core\auth\Auth::get_user();
+//trace($u);
+//trace($u->password);
 //trace(Data::find([
-//    'from' => '/interfaces',
+//    'from' => '/access/users',
 //    'select' => 'children',
 //    //'struct' => 'tree',
 //    'key'=>'name',
