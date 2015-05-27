@@ -1,12 +1,36 @@
 {
     "proto": "/vendor/boolive/basic/page",
+    "order": 0,
     "properties": {
-        "title": "Главная",
-        "description": "Главная страница. Структура сайта, страницы, разделы...",
-        "text":  {
-            "file": "text.html",
-            "proto": "/vendor/boolive/basic/page/text"
+        "title": {
+            "proto": "/vendor/boolive/basic/page/title",
+            "order": 0,
+            "value": "Главная",
+            "is_mandatory": true
         },
-        "menu": true
+        "description": {
+            "proto": "/vendor/boolive/basic/page/description",
+            "order": 0,
+            "value": "Главная страница. Структура сайта, страницы, разделы...",
+            "is_mandatory": true
+        },
+        "text": {
+            "proto": "/vendor/boolive/basic/page/text",
+            "order": 0,
+            "value": "<h2>Главная страница</h2>\r\n<p>Платформа Boolive успешно установлена</p>\r\n<p>Раздел администрирования находится по адресу <a href=\"/admin\">/admin</a></p>\r\n<p>Логин: <code>admin</code> Пароль: <code>padmin</code></p>",
+            "file": "text.html",
+            "is_mandatory": true
+        },
+        "menu": {
+            "proto": "/vendor/boolive/basic/page/menu",
+            "order": 0,
+            "value": true,
+            "is_mandatory": true
+        },
+        "icon": {
+            "proto": "/vendor/boolive/basic/image",
+            "order": 0,
+            "file": "icon.png"
+        }
     }
 }

@@ -1,0 +1,10 @@
+{
+    "order": 2,
+    "properties":{
+        "title": "Настройки",
+        "icon": {
+            "proto": "/vendor/boolive/basic/image",
+            "file": "icon.png"
+        }
+    }
+}

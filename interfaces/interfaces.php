@@ -27,7 +27,7 @@ class interfaces extends controller
         if ($error->getCode() == 403){
             echo 'Нет доступа';
         }else{
-            echo 'Ошибка';
+            return false;
         }
     }
 

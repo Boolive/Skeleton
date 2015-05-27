@@ -25,6 +25,8 @@
         "boolive/basic": "dev-master",
         "boolive/navigations": "dev-master",
         "boolive/widgets": "dev-master",
-        "boolive/admin": "dev-master"
+        "boolive/admin": "dev-master",
+        "boolive/forms": "dev-master",
+        "boolive/buildings": "dev-master"
     }
 }

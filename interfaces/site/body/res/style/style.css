@@ -11,7 +11,7 @@ img{
 
 .head{
     position: relative;
-    border-bottom: 15px solid #bfc3c4;
+    border-bottom: 15px solid #121A1B;
     overflow: hidden;
     height: 250px;
     }
@@ -29,7 +29,7 @@ img{
     }
 .head__menu{
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     width: 100%;
     }
 .bg-img{
@@ -44,8 +44,8 @@ img{
     }
 .head__text{
     position: absolute;
-    top: 20px;
-    left: 190px;
+    top: 50px;
+    left: 0px;
     }
     .title{
         font-size: 36px;
@@ -104,3 +104,7 @@ img{
         padding-right: 10px;
         color: #666;
         }
+
+.page__text{
+    font: 16px/16px sans-serif;
+    }

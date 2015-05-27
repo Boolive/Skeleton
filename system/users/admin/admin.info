@@ -1,0 +1,32 @@
+{
+    "proto": "/vendor/boolive/basic/user",
+    "order": 0,
+    "value": "f03a53fa9a84b390f92e5400a52ff274725d1a927f282dbdbdfdcc4c2a2e668e",
+    "properties": {
+        "title": {
+            "proto": "/vendor/boolive/basic/user/title",
+            "order": 0,
+            "value": "Администратор"
+        },
+        "password": {
+            "proto": "/vendor/boolive/basic/user/password",
+            "order": 0,
+            "value": "123456"
+        },
+        "email": {
+            "proto": "/vendor/boolive/basic/user/email",
+            "order": 0,
+            "value": "boolive@yandex.ru"
+        },
+        "time_visit": {
+            "proto": "/vendor/boolive/basic/user/time_visit",
+            "order": 0,
+            "value": "1234567"
+        },
+        "rights": {
+            "proto": "/vendor/boolive/basic/user/rights",
+            "order": 0,
+            "value": ""
+        }
+    }
+}
