@@ -1,11 +1,17 @@
 {
     "proto": "/vendor/boolive/basic/controller",
-    "logic": true,
     "order": 1,
+    "logic": true,
     "properties": {
-        "title": "Интерфейс",
+        "title": {
+            "proto": "/vendor/boolive/basic/controller/title",
+            "order": 1,
+            "value": "Интерфейс",
+            "is_mandatory": true
+        },
         "icon": {
             "proto": "/vendor/boolive/basic/image",
+            "order": 2,
             "file": "icon.png"
         }
     }

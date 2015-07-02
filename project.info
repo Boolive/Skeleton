@@ -1,7 +1,6 @@
 {
-    "logic": true,
     "proto": "/vendor/boolive/basic/controller",
-    "properties":{
-
-    }
+    "order": 0,
+    "value": "'fff'",
+    "logic": true
 }
