@@ -2,7 +2,7 @@
     "proto": "/vendor/boolive/basic/package",
     "order": 1,
     "properties":{
-        "title": "Эталоны содеримого",
+        "title": "Эталоны содержимого",
         "description": "Коллекция объектов, из которых создаётся структура сайта"
     }
 }
