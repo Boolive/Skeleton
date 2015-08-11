@@ -2,6 +2,30 @@
     "proto": "/vendor/boolive/basic/widget",
     "order": 3,
     "properties": {
-
+        "res": {
+            "proto": "/vendor/boolive/basic/widget/res",
+            "order": 3,
+            "is_mandatory": true,
+            "properties": {
+                "description": {
+                    "proto": "/vendor/boolive/basic/widget/res/description",
+                    "order": 0
+                },
+                "title": {
+                    "proto": "/vendor/boolive/basic/widget/res/title",
+                    "order": 0
+                }
+            }
+        },
+        "description": {
+            "proto": "/vendor/boolive/basic/widget/description",
+            "order": 2,
+            "is_mandatory": true
+        },
+        "title": {
+            "proto": "/vendor/boolive/basic/widget/title",
+            "order": 1,
+            "is_mandatory": true
+        }
     }
 }

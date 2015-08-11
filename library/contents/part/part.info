@@ -2,6 +2,49 @@
     "proto": "/vendor/boolive/basic/part",
     "order": 2,
     "properties": {
-
+        "icon": {
+            "proto": "/vendor/boolive/basic/part/icon",
+            "order": 0,
+            "is_draft": true,
+            "properties": {
+                "title": {
+                    "proto": "/vendor/boolive/basic/part/icon/title",
+                    "order": 0
+                }
+            }
+        },
+        "menu": {
+            "proto": "/vendor/boolive/basic/part/menu",
+            "order": 0,
+            "is_mandatory": true,
+            "properties": {
+                "title": {
+                    "proto": "/vendor/boolive/basic/part/menu/title",
+                    "order": 0
+                }
+            }
+        },
+        "title": {
+            "proto": "/vendor/boolive/basic/part/title",
+            "order": 1,
+            "is_mandatory": true,
+            "properties": {
+                "title": {
+                    "proto": "/vendor/boolive/basic/part/title/title",
+                    "order": 0
+                }
+            }
+        },
+        "description": {
+            "proto": "/vendor/boolive/basic/part/description",
+            "order": 2,
+            "is_mandatory": true,
+            "properties": {
+                "title": {
+                    "proto": "/vendor/boolive/basic/part/description/title",
+                    "order": 0
+                }
+            }
+        }
     }
 }
