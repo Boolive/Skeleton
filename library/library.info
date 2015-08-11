@@ -1,0 +1,8 @@
+{
+    "proto": "/vendor/boolive/basic/package",
+    "order": 2,
+    "properties":{
+        "title": "Библиотека",
+        "description": "Коллекция объектов, применяемых в проекте. Например, эталоны страницы, пользователя..."
+    }
+}

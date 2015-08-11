@@ -1,5 +1,5 @@
 {
-    "proto": "/vendor/boolive/basic/part",
+    "proto": "/library/contents/part",
     "order": 1,
     "properties": {
         "title": "Новости",

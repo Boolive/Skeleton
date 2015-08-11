@@ -1,0 +1,27 @@
+{
+    "proto": "/library/contents/page",
+    "properties": {
+        "title": {
+            "proto": "/library/contents/page/title",
+            "order": 1,
+            "value": "Страница новая",
+            "is_mandatory": true
+        },
+        "text": {
+            "proto": "/library/contents/page/text",
+            "order": 2,
+            "value": "Текст страницы",
+            "is_mandatory": true
+        },
+        "description": {
+            "proto": "/library/contents/page/description",
+            "order": 3,
+            "is_mandatory": true
+        },
+        "menu": {
+            "proto": "/library/contents/page/menu",
+            "order": 4,
+            "is_mandatory": true
+        }
+    }
+}

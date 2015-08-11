@@ -1,5 +1,5 @@
 {
-    "proto": "/vendor/boolive/basic/page",
+    "proto": "/library/contents/page",
     "order": 1,
     "properties": {
         "title": "Сайт компании А",
