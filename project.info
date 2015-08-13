@@ -1,6 +1,9 @@
 {
     "proto": "/vendor/boolive/basic/controller",
     "order": 0,
-    "value": "'fff'",
-    "logic": true
+    "logic": true,
+    "properties": {
+        "description": "Проект на платформе Boolive",
+        "title": "Проект"
+    }
 }

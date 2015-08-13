@@ -29,5 +29,13 @@
         "boolive/forms": "dev-master",
         "boolive/buildings": "dev-master",
         "boolive/data_tools": "dev-master"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php bowerphp.phar install"
+        ],
+        "post-update-cmd": [
+            "php bowerphp.phar install"
+        ]
     }
 }
