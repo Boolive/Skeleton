@@ -5,7 +5,7 @@
         "title": {
             "proto": "/library/contents/page/title",
             "order": 0,
-            "value": "Главная",
+            "value": "Содержимое",
             "is_mandatory": true
         },
         "description": {

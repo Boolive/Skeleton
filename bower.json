@@ -7,6 +7,8 @@
         "tests"
     ],
     "dependencies": {
-        "trumbowyg": "*"
+        "trumbowyg": "*",
+        "bootstrap": "*",
+        "widget-js": "*"
     }
 }

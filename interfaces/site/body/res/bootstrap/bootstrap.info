@@ -1,0 +1,8 @@
+{
+    "proto": "/vendor/boolive/basic/vendor_front",
+    "order": 0,
+    "properties": {
+        "version": "*",
+        "import": "bootstrap/dist/js/bootstrap.min.js; bootstrap/dist/css/bootstrap.min.css"
+    }
+}
